@@ -31,6 +31,7 @@ function App() {
 
   return (
     <>
+      TODOリストアプリ React
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input type="text" ref={todoNameRef} />
       <button onClick={handleAddTodo}>タスクを追加</button>
